@@ -1,0 +1,1 @@
+[{"name": "jack", "role": "Black", "favourite_number": "420"}, {"name": "kung fu", "role": "Panda", "favourite_number": "69"}, {"name": "Arthur", "role": "adventurer", "favourite_number": "42"}, {"name": "Lorenzo", "role": "instructor", "favourite_number": "8"}]
