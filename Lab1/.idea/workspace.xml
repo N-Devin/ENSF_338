@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50134c0e-0cb3-4d8b-8bc3-1aabdb55fdf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ex1/ex01.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex2/ex02.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex3/ex03.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex4/ex04.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex4/ex04_client.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex5/ex05.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex6/ex06.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/ex07.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02data_extended.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab03data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab03data_fixed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab05data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_activities.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1/q1/q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1/q7/q7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1/q8/q8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1/q8/q8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1/q8/q8_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/assignemnt1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/assignemnt1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q5/buildings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q3/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q2/q2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q3/q3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/q3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q3/q3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/q4.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q4/q4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q4/q4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/q4_new.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q4/q4_new.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/q6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q6/q6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/samplefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q3/samplefile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/songdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/q7/songdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/~$signemnt1.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2KcqYLgLglDd5572RAox4W25mAq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/nimnawijedasa/Desktop/Winter/ENSF_338/Lab1"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50134c0e-0cb3-4d8b-8bc3-1aabdb55fdf5" name="Changes" comment="" />
+      <created>1674284264386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674284264386</updated>
+      <workItem from="1674284265497" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
