@@ -1,4 +1,5 @@
 import timeit
+import matplotlib.pyplot as plt
 
 def unoptimized_fib(n):
     if n == 0 or n == 1:
@@ -36,4 +37,16 @@ for i in range(35):
     
     array_x.append(i)
 
-
+# plotting the points 
+plt.plot(array_x, unoptimized_array_y, label = "unoptimized_fib_call")
+plt.plot(array_x, optimized_array_y, label = "optimized_fib_call")
+  
+# naming the x axis
+plt.xlabel(' execution time (seconds)')
+# naming the y axis
+plt.ylabel('nth input number')
+# adding a legend
+plt.legend()
+  
+# function to show the plot
+plt.show()

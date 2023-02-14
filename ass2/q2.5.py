@@ -4,29 +4,6 @@ import sys
 import timeit
 
 sys.setrecursionlimit(20000)
-def optimized_sort(arr, low, high):
-    if low < high:
-        pi = optimized_quicksort(arr, low, high)
-        optimized_sort(arr, low, pi-1)
-        optimized_sort(arr, pi + 1, high)
-    return
-
-def optimized_quicksort(array, start, end):
-    p = array[(start + end)//2] 
-    low = start + 1 
-    high = end      
-    while True:
-        while low <= high and array[high] >= p:    
-            high = high - 1
-        while low <= high and array[low] <= p:      
-            low = low + 1
-        if low <= high:
-            array[low], array[high] = array[high], array[low]
-        else:
-            break
-    array[start], array[high] = array[high], array[start]
-    return ( (high + low ) // 2)
-
 def un_optimized_sort(arr, low, high):
     if low < high:
         pi = unoptimized_quicksort(arr, low, high)
@@ -52,36 +29,17 @@ def unoptimized_quicksort(array, start, end):
 with open("q2.json", "r") as inF:
     arr = json.load(inF)
 
+with open("ex2.5.json", "r") as inF:
+    optimized_arr = json.load(inF)
+
+def unoptimized_call(i):
+    un_optimized_sort(arr[i], 0, len(arr[i])-1)
 
 def optimized_call(i):
-    optimized = optimized_sort(arr[i], 0, len(arr[i])-1)
+    un_optimized_sort(arr[i], 0, len(arr[i])-1)
 
 unoptimized_array_y = []
 optimized_array_y = []
-array_x = []
-
-
-for i in range(len(arr)):
-    optimized_time = timeit.timeit(lambda: optimized_call(i), number=1)
-    optimized_array_y.append(optimized_time)
-    array_x.append(len(arr[i]))
-
-
-
-
-# plotting the points 
-plt.plot(array_x, optimized_array_y, label = "optimized_call")
-  
-
-
-
-with open("q2.json", "r") as inF:
-    arr = json.load(inF)
-
-def unoptimized_call(i):
-    unoptimized = un_optimized_sort(arr[i], 0, len(arr[i])-1)
-
-unoptimized_array_y = []
 array_x = []
 
 for i in range(len(arr)):
@@ -89,9 +47,14 @@ for i in range(len(arr)):
     unoptimized_array_y.append(unoptimized_time)
     array_x.append(len(arr[i]))
 
+for i in range(len(optimized_arr)):
+    optimized_time = timeit.timeit(lambda: optimized_call(i), number=1)
+    optimized_array_y.append(optimized_time)
+
 
 # plotting the points 
-plt.plot(array_x, unoptimized_array_y, label = "unoptimized_call")
+plt.plot(array_x, unoptimized_array_y, label = "unoptimized_json")
+plt.plot(array_x, optimized_array_y, label = "optimized_json")
   
 # naming the x axis
 plt.xlabel('Number of elements in array')
@@ -102,3 +65,4 @@ plt.legend()
   
 # function to show the plot
 plt.show()
+

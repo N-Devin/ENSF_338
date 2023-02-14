@@ -26,7 +26,7 @@ def unoptimized_quicksort(array, start, end):
     array[start], array[high] = array[high], array[start]
     return high
 
-with open("q2.json", "r") as inF:
+with open("modified_data.json", "r") as inF:
     arr = json.load(inF)
 
 def unoptimized_call(i):
